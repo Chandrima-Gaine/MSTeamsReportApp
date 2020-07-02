@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fiscal-report-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fiscalReport/FiscalReportWebPart.js",
+          "manifest": "./src/webparts/fiscalReport/FiscalReportWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FiscalReportWebPartStrings": "lib/webparts/fiscalReport/loc/{locale}.js"
+  }
+}

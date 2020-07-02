@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fiscal-report-client-side-solution",
+    "id": "f52781ed-c394-4ccd-8c99-2f32203a3859",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/fiscal-report.sppkg"
+  }
+}
