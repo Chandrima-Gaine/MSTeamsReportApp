@@ -1,8 +1,17 @@
 @import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
 
+@media screen and (max-width: 100%)
+  {
+    .CanvasZone .row .CanvasZone--alignment .CanvasZone--noMargin .CanvasZone--edit {
+      padding-right: 0px;
+      padding-left: 0px;
+      max-width: 100%;
+  }
+}
+
 .fiscalReport {
   .container {
-    max-width: 700px;
+    max-width: 100%;
     margin: 0px auto;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
   }
